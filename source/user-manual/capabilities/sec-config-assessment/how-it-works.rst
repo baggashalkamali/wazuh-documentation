@@ -39,7 +39,7 @@ Take the following check from policy ``cis_debian9.yml`` as an example.
        - cis: ["4.1.2"]
        - cis_csc: ["6.2", "6.3"]
        - pci_dss: ["10.1","10.7"]
-       - tsc: [CC6.1", "CC6.2", "CC6.3", "CC7.2", "CC7.3", "CC7.4"]
+       - tsc: ["CC6.1", "CC6.2", "CC6.3", "CC7.2", "CC7.3", "CC7.4"]
      condition: all
      rules:
        - 'c:systemctl is-enabled auditd -> enabled'
